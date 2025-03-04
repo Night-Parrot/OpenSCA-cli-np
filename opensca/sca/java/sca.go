@@ -23,7 +23,7 @@ func (sca Sca) Filter(relpath string) bool {
 	return filter.JavaPom(relpath)
 }
 
-func (sca Sca) Sca(ctx context.Context, parent *model.File, files []*model.File, call model.ResCallback) {
+func (sca Sca) Sca(ctx context.Context, parent *model.File, files []*model.File, call model.ResCallback, mvnConfigPath string, mvnLocalPath string) {
 
 	// jar包中的pom仅读取pom自身信息 不获取子依赖
 	if strings.Contains(parent.Relpath(), ".jar") {
@@ -54,6 +54,8 @@ func (sca Sca) Sca(ctx context.Context, parent *model.File, files []*model.File,
 		if filter.JavaPom(file.Relpath()) {
 			file.OpenReader(func(reader io.Reader) {
 				pom := ReadPom(reader)
+				pom.LocalMvnConfigPath = mvnConfigPath
+				pom.LocalMvnPath = mvnLocalPath
 				pom.File = file
 				poms = append(poms, pom)
 			})

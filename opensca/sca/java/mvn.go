@@ -524,7 +524,7 @@ func MvnTree(ctx context.Context, pom *Pom) *model.DepGraph {
 		return nil
 	}
 
-	cmd := exec.CommandContext(ctx, "mvn", "dependency:tree")
+	cmd := exec.CommandContext(ctx, "mvn", "dependency:tree", "-s "+pom.LocalMvnConfigPath, "-Dmaven.repo.local="+pom.LocalMvnPath)
 	cmd.Dir = filepath.Dir(pom.File.Abspath())
 	output, err := cmd.CombinedOutput()
 	if err != nil {

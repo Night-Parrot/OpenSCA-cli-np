@@ -24,7 +24,9 @@ type Pom struct {
 	Licenses             []string         `xml:"licenses>license>name"`
 	Profiles             []Pom            `xml:"profiles>profile"`
 	// 当前pom对应的文件信息
-	File *model.File `xml:"-" json:"-"`
+	File               *model.File `xml:"-" json:"-"`
+	LocalMvnPath       string
+	LocalMvnConfigPath string
 }
 
 // PomDependency pom依赖
