@@ -1,4 +1,4 @@
-module github.com/xmirrorsecurity/opensca-cli/v3
+module github.com/Night-Parrot/OpenSCA-cli-np/v3
 
 go 1.20
 
