@@ -3,8 +3,8 @@ package javascript
 import (
 	"strings"
 
-	"github.com/xmirrorsecurity/opensca-cli/v3/opensca/logs"
-	"github.com/xmirrorsecurity/opensca-cli/v3/opensca/model"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/opensca/logs"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/opensca/model"
 )
 
 type YarnLock struct {

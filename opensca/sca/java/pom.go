@@ -6,9 +6,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/xmirrorsecurity/opensca-cli/v3/opensca/logs"
-	"github.com/xmirrorsecurity/opensca-cli/v3/opensca/model"
-	"github.com/xmirrorsecurity/opensca-cli/v3/opensca/sca/java/xml"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/opensca/logs"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/opensca/model"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/opensca/sca/java/xml"
 )
 
 // Pom pom信息

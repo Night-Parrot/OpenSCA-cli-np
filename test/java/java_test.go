@@ -3,9 +3,9 @@ package java
 import (
 	"testing"
 
-	"github.com/xmirrorsecurity/opensca-cli/v3/opensca/common"
-	"github.com/xmirrorsecurity/opensca-cli/v3/opensca/sca/java"
-	"github.com/xmirrorsecurity/opensca-cli/v3/test/tool"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/opensca/common"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/opensca/sca/java"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/test/tool"
 )
 
 var cases = []tool.TaskCase{

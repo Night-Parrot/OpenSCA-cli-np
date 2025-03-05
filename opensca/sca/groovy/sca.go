@@ -3,8 +3,8 @@ package groovy
 import (
 	"context"
 
-	"github.com/xmirrorsecurity/opensca-cli/v3/opensca/model"
-	"github.com/xmirrorsecurity/opensca-cli/v3/opensca/sca/filter"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/opensca/model"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/opensca/sca/filter"
 )
 
 type Sca struct{}

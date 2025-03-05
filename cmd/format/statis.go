@@ -3,7 +3,7 @@ package format
 import (
 	"fmt"
 
-	"github.com/xmirrorsecurity/opensca-cli/v3/cmd/detail"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/cmd/detail"
 )
 
 // Statis 统计概览信息

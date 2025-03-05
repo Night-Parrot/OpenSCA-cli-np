@@ -2,10 +2,10 @@ module opensca-example
 
 go 1.20
 
-require github.com/xmirrorsecurity/opensca-cli/v3 v3.0.2
+require github.com/Night-Parrot/OpenSCA-cli-np/v3 v3.0.2
 
 // debug
-replace github.com/xmirrorsecurity/opensca-cli/v3 => ../
+replace github.com/Night-Parrot/OpenSCA-cli-np/v3 => ../
 
 require (
 	github.com/BurntSushi/toml v1.3.2 // indirect

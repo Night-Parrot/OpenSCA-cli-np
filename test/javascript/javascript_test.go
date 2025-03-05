@@ -3,8 +3,8 @@ package javascript
 import (
 	"testing"
 
-	"github.com/xmirrorsecurity/opensca-cli/v3/opensca/sca/javascript"
-	"github.com/xmirrorsecurity/opensca-cli/v3/test/tool"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/opensca/sca/javascript"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/test/tool"
 )
 
 func Test_JavaScript(t *testing.T) {

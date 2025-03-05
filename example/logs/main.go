@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/xmirrorsecurity/opensca-cli/v3/opensca/logs"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/opensca/logs"
 )
 
 func main() {

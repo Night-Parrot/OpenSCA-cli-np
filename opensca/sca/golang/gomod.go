@@ -9,7 +9,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/xmirrorsecurity/opensca-cli/v3/opensca/model"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/opensca/model"
 )
 
 // ParseGomod 解析go.mod文件

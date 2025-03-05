@@ -6,7 +6,7 @@ import (
 	"io"
 
 	"github.com/CycloneDX/cyclonedx-go"
-	"github.com/xmirrorsecurity/opensca-cli/v3/opensca/model"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/opensca/model"
 )
 
 func ParseCdxJson(f *model.File) *model.DepGraph {

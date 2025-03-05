@@ -13,17 +13,17 @@ import (
 
 	_ "embed"
 
-	"github.com/xmirrorsecurity/opensca-cli/v3/cmd/config"
-	"github.com/xmirrorsecurity/opensca-cli/v3/cmd/detail"
-	"github.com/xmirrorsecurity/opensca-cli/v3/cmd/format"
-	"github.com/xmirrorsecurity/opensca-cli/v3/cmd/ui"
-	"github.com/xmirrorsecurity/opensca-cli/v3/opensca"
-	"github.com/xmirrorsecurity/opensca-cli/v3/opensca/common"
-	"github.com/xmirrorsecurity/opensca-cli/v3/opensca/logs"
-	"github.com/xmirrorsecurity/opensca-cli/v3/opensca/model"
-	"github.com/xmirrorsecurity/opensca-cli/v3/opensca/sca/java"
-	"github.com/xmirrorsecurity/opensca-cli/v3/opensca/sca/javascript"
-	"github.com/xmirrorsecurity/opensca-cli/v3/opensca/sca/php"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/cmd/config"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/cmd/detail"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/cmd/format"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/cmd/ui"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/opensca"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/opensca/common"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/opensca/logs"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/opensca/model"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/opensca/sca/java"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/opensca/sca/javascript"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/opensca/sca/php"
 )
 
 var version string

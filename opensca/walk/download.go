@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/jlaffaye/ftp"
-	"github.com/xmirrorsecurity/opensca-cli/v3/opensca/common"
-	"github.com/xmirrorsecurity/opensca-cli/v3/opensca/logs"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/opensca/common"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/opensca/logs"
 )
 
 // isHttp 是否为http/https协议

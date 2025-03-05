@@ -5,7 +5,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/xmirrorsecurity/opensca-cli/v3/cmd/detail"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/cmd/detail"
 )
 
 func Csv(report Report, out string) {

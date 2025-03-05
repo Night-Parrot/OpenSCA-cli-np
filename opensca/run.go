@@ -6,11 +6,11 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/xmirrorsecurity/opensca-cli/v3/opensca/logs"
-	"github.com/xmirrorsecurity/opensca-cli/v3/opensca/model"
-	"github.com/xmirrorsecurity/opensca-cli/v3/opensca/sca"
-	"github.com/xmirrorsecurity/opensca-cli/v3/opensca/sca/filter"
-	"github.com/xmirrorsecurity/opensca-cli/v3/opensca/walk"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/opensca/logs"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/opensca/model"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/opensca/sca"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/opensca/sca/filter"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/opensca/walk"
 )
 
 // 任务检测参数

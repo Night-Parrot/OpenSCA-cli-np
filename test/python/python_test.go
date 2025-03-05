@@ -3,8 +3,8 @@ package python
 import (
 	"testing"
 
-	"github.com/xmirrorsecurity/opensca-cli/v3/opensca/sca/python"
-	"github.com/xmirrorsecurity/opensca-cli/v3/test/tool"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/opensca/sca/python"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/test/tool"
 )
 
 func Test_Python(t *testing.T) {

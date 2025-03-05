@@ -6,7 +6,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/xmirrorsecurity/opensca-cli/v3/opensca/model"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/opensca/model"
 )
 
 func ParseSpdx(f *model.File) *model.DepGraph {

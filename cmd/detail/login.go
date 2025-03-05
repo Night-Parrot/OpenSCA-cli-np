@@ -13,8 +13,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/xmirrorsecurity/opensca-cli/v3/cmd/config"
-	"github.com/xmirrorsecurity/opensca-cli/v3/opensca/logs"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/cmd/config"
+	"github.com/Night-Parrot/OpenSCA-cli-np/v3/opensca/logs"
 	"golang.org/x/term"
 )
 
