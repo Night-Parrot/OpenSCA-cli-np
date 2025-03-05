@@ -11,8 +11,10 @@ import (
 )
 
 type Sca struct {
-	NotUseMvn    bool
-	NotUseStatic bool
+	NotUseMvn     bool
+	NotUseStatic  bool
+	MvnConfigPath string
+	MvnLocalPath  string
 }
 
 func (sca Sca) Language() model.Language {
@@ -23,7 +25,7 @@ func (sca Sca) Filter(relpath string) bool {
 	return filter.JavaPom(relpath)
 }
 
-func (sca Sca) Sca(ctx context.Context, parent *model.File, files []*model.File, call model.ResCallback, mvnConfigPath string, mvnLocalPath string) {
+func (sca Sca) Sca(ctx context.Context, parent *model.File, files []*model.File, call model.ResCallback) {
 
 	// jar包中的pom仅读取pom自身信息 不获取子依赖
 	if strings.Contains(parent.Relpath(), ".jar") {
@@ -54,8 +56,8 @@ func (sca Sca) Sca(ctx context.Context, parent *model.File, files []*model.File,
 		if filter.JavaPom(file.Relpath()) {
 			file.OpenReader(func(reader io.Reader) {
 				pom := ReadPom(reader)
-				pom.LocalMvnConfigPath = mvnConfigPath
-				pom.LocalMvnPath = mvnLocalPath
+				pom.LocalMvnConfigPath = sca.MvnConfigPath
+				pom.LocalMvnPath = sca.MvnLocalPath
 				pom.File = file
 				poms = append(poms, pom)
 			})
